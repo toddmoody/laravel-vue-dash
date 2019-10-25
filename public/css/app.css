@@ -5487,6 +5487,14 @@ hr {
 }
 @charset "UTF-8";
 
+.blue {
+  color: #3490dc !important;
+}
+
+.red {
+  color: #e3342f !important;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -22460,5 +22468,10 @@ readers do not read off random characters that represent icons */
 
 .fab {
   font-family: "Font Awesome 5 Brands";
+}
+
+.router-link-exact-active {
+  background-color: #cacaca !important;
+  color: #FFF !important;
 }
 
